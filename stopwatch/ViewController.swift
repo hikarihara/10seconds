@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         number = number + 0.01
         label.text = String(format: "%.2f",number)
         
-        if number > 4.5{
+        if number > 4.9{
             label.text = ""
         }
         
